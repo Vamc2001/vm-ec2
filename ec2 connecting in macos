@@ -1,0 +1,6 @@
+give permissions to the pem.key
+ex:- chmod 400 path/to/your/key.pem 
+-- chmod 400 /Users/vamshikrishna/Downloads/vamc.pem 
+
+ssh -i path/to/your/key.pem username@public.IP
+ssh -i /Users/vamshikrishna/Downloads/jabin.pem ec2-user@13.232.112.86
